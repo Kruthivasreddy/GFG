@@ -1,0 +1,15 @@
+class Vechile {
+   protected String brand = "Toyota";
+    public void light() {
+        System.out.println("flash, bright");
+
+        class Car extends Vechile {
+            private String modelName = "Lexus";
+            public static void main(String[] args) {
+                car myFastCar = new Car();
+                myfastCar.light();
+                System.out.print(myfastCar.Toyot +" "+ myFastCar.modelName);
+                        }
+        }
+    }
+}
